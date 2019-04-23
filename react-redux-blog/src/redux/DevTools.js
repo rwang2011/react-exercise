@@ -8,7 +8,7 @@ import DockMonitor from 'redux-devtools-dock-monitor';
 // LogMonitor决定DevTools中显示的内容
 const DevTools = createDevTools(
     <DockMonitor
-        toggleVisibilityKey="ctrl-h"
+        toggleVisibilityKey="ctrl-w"
         changePositionKey="ctrl-q"
     >
         <LogMonitor theme="tomorrow" />
