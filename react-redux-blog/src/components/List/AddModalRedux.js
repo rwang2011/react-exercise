@@ -60,10 +60,10 @@ export default function addModalReducer(state = initialState, action) {
         visible: false
       };
     case "ADD_ARTICLE":
-      return formReducer({
+      return {
         ...state,
         visible: false
-      }, action);
+      };
     default:
       return formReducer(state, action);
   }
